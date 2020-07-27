@@ -59,3 +59,15 @@ void Car_dealership::Show_by_year(int year)
 
 	}
 }
+
+void Car_dealership::Show_by_price(int price)
+{
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_price() == price)
+		{
+			(*iter).Show();
+
+		}
+	}
+}

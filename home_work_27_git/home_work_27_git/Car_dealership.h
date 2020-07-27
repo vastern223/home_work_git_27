@@ -47,5 +47,7 @@ public:
 	void Show_by_name_car(string name);
 
 	void Show_by_year(int year);
+
+	void Show_by_price(int price);
 };
 
