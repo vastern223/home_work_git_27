@@ -9,3 +9,14 @@ Car::Car(string name, int year_of_issue, float engine_capacity, int price)
 	this->engine_capacity = engine_capacity;
 	this->price = price;
 }
+
+
+void Car::Show()
+{
+	cout << "Information about the car" << endl;
+	cout << "<------------------------>" << endl;
+	cout << "Name: " << name << endl;
+	cout << "Year of issue: " << year_of_issue << endl;
+	cout << "Engine capacity: " << engine_capacity << endl;
+	cout << "Price: " << price << endl;
+}
