@@ -39,5 +39,9 @@ public:
 	void Delete_all_cars_manufactured_before_2000();
 
 	void Show_all_cars();
+
+	void Sort_by_name_();
+
+	void Sort_by_prise_();
 };
 

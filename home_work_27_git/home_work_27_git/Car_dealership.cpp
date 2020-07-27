@@ -23,3 +23,13 @@ void Car_dealership::Show_all_cars()
 		}
 	}
 }
+
+void Car_dealership::Sort_by_name_()
+{
+	cars.sort(Sort_by_name());
+}
+void Car_dealership::Sort_by_prise_()
+{
+	cars.sort(Sort_by_prise());
+}
+
