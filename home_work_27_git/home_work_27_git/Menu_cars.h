@@ -5,5 +5,7 @@ class Menu_cars
 {
 private:
 	Car_dealership cl;
+
+	void Add_car();
 };
 
