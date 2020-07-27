@@ -85,3 +85,20 @@ void Car_dealership::Car_standard_euro_5()//реально діять євро 5 почав в 2009 ро
 
 	cout << "Cars euro 5 :" << counter_euro_5 << endl;
 }
+
+
+
+void Car_dealership::The_total_price_of_cars_under_5_years()
+{
+	int total_price = 0;
+
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_name_year_of_issue() >= 2015)
+		{
+			total_price += (*iter).Get_price();
+		}
+	}
+
+	cout << "Total price of cars under 5 years:" << total_price << endl;
+}

@@ -51,5 +51,7 @@ public:
 	void Show_by_price(int price);
 
 	void Car_standard_euro_5();
+
+	void The_total_price_of_cars_under_5_years();
 };
 
