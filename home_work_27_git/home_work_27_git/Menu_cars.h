@@ -21,5 +21,7 @@ private:
 	void Sort_by_name_();
 
 	void Sort_by_prise_();
+
+	void Car_standard_euro_5();
 };
 

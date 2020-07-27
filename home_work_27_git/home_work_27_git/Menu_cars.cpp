@@ -69,3 +69,8 @@ void Menu_cars::Sort_by_prise_()
 {
 	cl.Sort_by_prise_();
 }
+
+void  Menu_cars::Car_standard_euro_5()
+{
+	cl.Car_standard_euro_5();
+}
