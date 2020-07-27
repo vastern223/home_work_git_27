@@ -79,3 +79,8 @@ void Menu_cars::The_total_price_of_cars_under_5_years()
 {
 	cl.The_total_price_of_cars_under_5_years();
 }
+
+void Menu_cars::reduce_the_price_by_20_for_all_cars_older_than_15()
+{
+	cl.reduce_the_price_by_20_for_all_cars_older_than_15();
+}

@@ -25,5 +25,7 @@ private:
 	void Car_standard_euro_5();
 
 	void The_total_price_of_cars_under_5_years();
+
+	void reduce_the_price_by_20_for_all_cars_older_than_15();
 };
 
