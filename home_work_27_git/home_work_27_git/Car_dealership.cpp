@@ -71,3 +71,17 @@ void Car_dealership::Show_by_price(int price)
 		}
 	}
 }
+
+void Car_dealership::Car_standard_euro_5()//נואכüםמ ה³ÿעü ÷גנמ 5 ןמקאג ג 2009 נמצ³ (א םו ג 2008)
+{
+	int counter_euro_5 = 0;
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_name_year_of_issue() < 2009)
+		{
+			counter_euro_5++;
+		}
+	}
+
+	cout << "Cars euro 5 :" << counter_euro_5 << endl;
+}

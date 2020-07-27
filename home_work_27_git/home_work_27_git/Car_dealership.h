@@ -49,5 +49,7 @@ public:
 	void Show_by_year(int year);
 
 	void Show_by_price(int price);
+
+	void Car_standard_euro_5();
 };
 
