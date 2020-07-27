@@ -89,3 +89,8 @@ void Menu_cars::Check_that_all_cars_have_the_correct_year_of_manufacture()
 {
 	cl.Check_that_all_cars_have_the_correct_year_of_manufacture();
 }
+
+void Menu_cars::check_if_there_is_a_car_with_a_price_of_more_than_100000()
+{
+	cl.check_if_there_is_a_car_with_a_price_of_more_than_100000();
+}
