@@ -3,6 +3,30 @@
 #include<list>
 #include<algorithm>
 
+class Sort_by_name
+{
+public:
+
+	bool operator()(Car& car1, Car& car2)
+	{
+		return car1.Get_name_car() < car2.Get_name_car();
+	}
+
+};
+
+class Sort_by_prise
+{
+public:
+
+	bool operator()(Car& car1, Car& car2)
+	{
+		return car1.Get_price() < car2.Get_price();
+	}
+
+};
+
+
+
 class Car_dealership
 {
 private:
