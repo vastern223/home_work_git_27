@@ -141,3 +141,16 @@ void  Car_dealership::check_if_there_is_a_car_with_a_price_of_more_than_100000()
 	}
 
 }
+
+void  Car_dealership::Check_for_missing_cars_with_a_smaller_volume()
+{
+	if (none_of(cars.begin(), cars.end(), [](auto& element) {return element.Get_engine_capacity() < 1.0; }))
+	{
+		cout << "there are no cars with a volume less than 1.0" << endl;
+	}
+	else
+	{
+		cout << "cars with a capacity of less than 1.0 are present" << endl;
+	}
+
+}
