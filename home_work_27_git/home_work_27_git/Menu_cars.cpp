@@ -21,3 +21,9 @@ void Menu_cars::Add_car()
 
 	cl.Add_car(Car(name, year_of_issue, engine_capacity, price));
 }
+
+
+void  Menu_cars::Delete_all_cars_manufactured_before_2000()
+{
+	cl.Delete_all_cars_manufactured_before_2000();
+}
