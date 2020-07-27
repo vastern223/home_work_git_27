@@ -43,5 +43,7 @@ public:
 	void Sort_by_name_();
 
 	void Sort_by_prise_();
+
+	void Show_by_name_car(string name);
 };
 

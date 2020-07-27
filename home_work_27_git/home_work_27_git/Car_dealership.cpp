@@ -33,3 +33,16 @@ void Car_dealership::Sort_by_prise_()
 	cars.sort(Sort_by_prise());
 }
 
+
+void Car_dealership::Show_by_name_car(string name)
+{
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_name_car() == name)
+		{
+			(*iter).Show();
+			break;
+		}
+
+	}
+}
