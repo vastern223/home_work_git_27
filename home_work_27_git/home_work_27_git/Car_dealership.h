@@ -53,5 +53,7 @@ public:
 	void Car_standard_euro_5();
 
 	void The_total_price_of_cars_under_5_years();
+
+	void Check_that_all_cars_have_the_correct_year_of_manufacture();
 };
 
