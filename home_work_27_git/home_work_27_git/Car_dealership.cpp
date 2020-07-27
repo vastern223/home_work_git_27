@@ -46,3 +46,16 @@ void Car_dealership::Show_by_name_car(string name)
 
 	}
 }
+
+void Car_dealership::Show_by_year(int year)
+{
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_name_year_of_issue() == year)
+		{
+			(*iter).Show();
+
+		}
+
+	}
+}
