@@ -23,5 +23,7 @@ private:
 	void Sort_by_prise_();
 
 	void Car_standard_euro_5();
+
+	void The_total_price_of_cars_under_5_years();
 };
 

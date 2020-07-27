@@ -74,3 +74,8 @@ void  Menu_cars::Car_standard_euro_5()
 {
 	cl.Car_standard_euro_5();
 }
+
+void Menu_cars::The_total_price_of_cars_under_5_years()
+{
+	cl.The_total_price_of_cars_under_5_years();
+}
