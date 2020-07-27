@@ -131,13 +131,14 @@ void Car_dealership::reduce_the_price_by_20_for_all_cars_older_than_15()
 void  Car_dealership::check_if_there_is_a_car_with_a_price_of_more_than_100000()
 {
 
-	if (any_of(cars.begin(), cars.end(), [](auto& element) {return element.Get_name_year_of_issue() > 100000; }))
+	if (any_of(cars.begin(), cars.end(), [](auto& element) {return element.Get_price() > 100000; }))
 	{
 		cout << "there is a car with a price of more than 100,000" << endl;
 	}
 	else
 	{
 		cout << "not there is a car with a price of more than 100,000" << endl;
+
 	}
 
 }
