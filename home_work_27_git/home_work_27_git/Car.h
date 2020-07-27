@@ -10,6 +10,10 @@ private:
 	int year_of_issue;
 	float engine_capacity;
 	int price;
+public:
 
+	Car();
+
+	Car(string name, int year_of_issue, float engine_capacity, int price);
 };
 
