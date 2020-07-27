@@ -34,3 +34,14 @@ int Car::Get_price()
 {
 	return price;
 }
+
+void Car::Set_price(int price)
+{
+	this->price = price;
+}
+
+float Car::Get_engine_capacity()
+{
+	return engine_capacity;
+}
+

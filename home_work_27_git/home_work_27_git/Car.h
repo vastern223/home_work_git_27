@@ -24,5 +24,8 @@ public:
 
 	int Get_price();
 
+	void Set_price(int price);
+
+	float Get_engine_capacity();
 };
 
