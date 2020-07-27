@@ -11,5 +11,7 @@ private:
 public:
 
 	void Add_car(const Car& car);
+
+	void Delete_all_cars_manufactured_before_2000();
 };
 
