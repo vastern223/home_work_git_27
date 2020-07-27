@@ -20,3 +20,17 @@ void Car::Show()
 	cout << "Engine capacity: " << engine_capacity << endl;
 	cout << "Price: " << price << endl;
 }
+
+string Car::Get_name_car()
+{
+	return name;
+}
+int Car::Get_name_year_of_issue()
+{
+	return year_of_issue;
+}
+
+int Car::Get_price()
+{
+	return price;
+}
