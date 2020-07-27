@@ -59,3 +59,13 @@ void Menu_cars::Show_by_price()
 	cin >> price;
 	cl.Show_by_price(price);
 }
+
+void Menu_cars::Sort_by_name_()
+{
+	cl.Sort_by_name_();
+}
+
+void Menu_cars::Sort_by_prise_()
+{
+	cl.Sort_by_prise_();
+}

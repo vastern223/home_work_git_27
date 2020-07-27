@@ -17,5 +17,9 @@ private:
 	void Show_by_year();
 
 	void Show_by_price();
+
+	void Sort_by_name_();
+
+	void Sort_by_prise_();
 };
 
