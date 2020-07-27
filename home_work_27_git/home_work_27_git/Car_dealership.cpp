@@ -77,7 +77,7 @@ void Car_dealership::Car_standard_euro_5()//реально діять євро 5 почав в 2009 ро
 	int counter_euro_5 = 0;
 	for (auto iter = cars.begin(); iter != cars.end(); iter++)
 	{
-		if ((*iter).Get_name_year_of_issue() < 2009)
+		if ((*iter).Get_name_year_of_issue() >= 2009)
 		{
 			counter_euro_5++;
 		}
