@@ -114,3 +114,16 @@ void Car_dealership::Check_that_all_cars_have_the_correct_year_of_manufacture()
 		cout << "not all cars have the correct year of manufacture" << endl;
 	}
 }
+
+
+void Car_dealership::reduce_the_price_by_20_for_all_cars_older_than_15()
+{
+	for (auto iter = cars.begin(); iter != cars.end(); iter++)
+	{
+		if ((*iter).Get_name_year_of_issue() <= 2005)
+		{
+
+			(*iter).Set_price((*iter).Get_price() - (*iter).Get_price() / 5);
+		}
+	}
+}
