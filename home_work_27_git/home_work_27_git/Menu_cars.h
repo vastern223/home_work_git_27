@@ -33,5 +33,8 @@ private:
 	void check_if_there_is_a_car_with_a_price_of_more_than_100000();
 
 	void Check_for_missing_cars_with_a_smaller_volume();
+public:
+
+	void Menu();
 };
 
