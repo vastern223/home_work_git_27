@@ -84,3 +84,8 @@ void Menu_cars::reduce_the_price_by_20_for_all_cars_older_than_15()
 {
 	cl.reduce_the_price_by_20_for_all_cars_older_than_15();
 }
+
+void Menu_cars::Check_that_all_cars_have_the_correct_year_of_manufacture()
+{
+	cl.Check_that_all_cars_have_the_correct_year_of_manufacture();
+}
